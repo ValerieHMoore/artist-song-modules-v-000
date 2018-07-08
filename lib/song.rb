@@ -8,7 +8,7 @@ class Song
   
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
-  include Paramble::InstanceMethods
+  include Paramable::InstanceMethods
 
   def initialize
     @@songs << self
