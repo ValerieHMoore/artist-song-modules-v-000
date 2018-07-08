@@ -8,7 +8,7 @@ class Artist
   
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
-  include Paramble::InstanceMethods
+  include Paramable::InstanceMethods
 
   def self.find_by_name(name)
     @@artists.detect{|a| a.name == name}
