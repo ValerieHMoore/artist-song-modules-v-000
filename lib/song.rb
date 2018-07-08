@@ -8,7 +8,7 @@ class Song
   
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
-  #include FancyDance::InstanceMethods
+  include Paramble::InstanceMethods
 
   def initialize
     @@songs << self
