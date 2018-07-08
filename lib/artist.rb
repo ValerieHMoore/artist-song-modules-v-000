@@ -7,6 +7,7 @@ class Artist
   @@artists = []
   
   extend Memorable::ClassMethods
+  extend Findable
   #include FancyDance::InstanceMethods
 
   def self.find_by_name(name)
